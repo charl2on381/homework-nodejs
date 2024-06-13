@@ -131,8 +131,8 @@ const updateAvatar = async (req, res) => {
   );
 
   const extension = path.extname(originalname);
-
   const filename = `${_id}${extension}`;
+
   const newPath = path.join("public", "avatars", filename);
   await fs.rename(oldPath, newPath);
 
