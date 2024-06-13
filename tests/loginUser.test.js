@@ -7,7 +7,7 @@ import { jest } from "@jest/globals";
 
 describe("Test @POST /api/users/login", () => {
   const signInData = {
-    email: "marvin@example.com",
+    email: "charlton@example.com",
     password: "examplepassword",
   };
 
